@@ -68,7 +68,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="bg-green-100">
+    <nav className="bg-green-400/20 backdrop-blur-lg border-b border-green-400">
       <div className="navbar max-w-6xl mx-auto">
         <div className="navbar-start  gap-4 w-fit">
           <div className="dropdown">
@@ -91,7 +91,8 @@ const Navbar = () => {
             <ul className="flex items-center gap-5">{links}</ul>
           </div>
           <a
-            href="/contact"
+            href="https://3s-soft.com/"
+            target="_blank"
             className="inline-block bg-green-600 text-white py-2 px-5 rounded-md hover:bg-green-700 transition font-medium"
           >
             3s-Soft
