@@ -4,30 +4,30 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "James Turner",
-    platform: "Amazon Seller",
+    name: "qiangchen",
+    platform: "Walmart Seller",
     comment:
-      "Oahidul was exceptional in managing my Amazon store. Product listings were SEO-optimized and boosted my sales by 35% in just 2 months.",
+      "He did a great job. He has professional experience in uploading products. I waited two months for each review by Walmart. I am very grateful for his patience! He enabled me to successfully pass all the processes. I highly recommend it!",
     rating: 5,
-    country: "USA",
+    country: "United States",
   },
   {
     id: 2,
-    name: "Sarah Khalid",
-    platform: "Shopify Owner",
+    name: "gareginharutyun",
+    platform: "Walmart Seller",
     comment:
-      "He helped me migrate and organize over 500 products. His attention to detail and responsiveness made the whole process smooth.",
+      "Got my walmart listing published so fast",
     rating: 5,
-    country: "UK",
+    country: "United States",
   },
   {
     id: 3,
-    name: "Carlos Mendes",
-    platform: "eBay Business",
+    name: "fcbayram",
+    platform: "Amazon Seller",
     comment:
-      "Outstanding freelancer! Highly professional and always meets deadlines. My eBay store has never been better.",
-    rating: 4,
-    country: "Portugal",
+      "It was great work. I totally satisfied with his work. I recommend all.",
+    rating: 5,
+    country: "Turkey",
   },
   {
     id: 4,
