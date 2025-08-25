@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AlignJustify } from "lucide-react";
 
 const Navbar = () => {
@@ -72,9 +72,9 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="font-bold text-xl">
+          <Link to={"/"} className="font-bold text-xl">
             Oahidul Islam <span className="text-green-500 text-2xl">.</span>
-          </a>
+          </Link>
         </div>
         <div className="navbar-end gap-10 flex-1">
           <div className="hidden lg:flex">
