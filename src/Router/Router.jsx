@@ -5,7 +5,7 @@ import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Services from "../Pages/Services";
 import Testimonials from "../Pages/Testimonials";
-import Resume from "../Pages/Resume";
+import NotFound from "../Pages/NotFound";
 
 let router = createBrowserRouter([
   {
@@ -29,12 +29,12 @@ let router = createBrowserRouter([
         Component: Testimonials
       },
       {
-        path: 'resume',
-        Component: Resume
-      },
-      {
         path: 'contact',
         Component: Contact
+      },
+      {
+        path: "/*",
+        Component: NotFound,
       },
     ],
   },

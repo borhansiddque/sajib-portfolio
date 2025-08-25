@@ -47,16 +47,6 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to={"/resume"}
-          className={({ isActive }) =>
-            `font-semibold ${isActive && "text-green-600"}`
-          }
-        >
-          Resume
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
           to={"/contact"}
           className={({ isActive }) =>
             `font-semibold ${isActive && "text-green-600"}`

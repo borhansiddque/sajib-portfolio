@@ -92,6 +92,7 @@ const Contact = () => {
                 name="name"
                 required
                 className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                placeholder="John Doe"
               />
             </div>
             <div>
@@ -101,6 +102,7 @@ const Contact = () => {
                 name="email"
                 required
                 className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                placeholder="test@example.com"
               />
             </div>
             <div>
@@ -110,6 +112,7 @@ const Contact = () => {
                 rows="5"
                 required
                 className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                placeholder="You can write anything about my work...."
               ></textarea>
             </div>
             <button
