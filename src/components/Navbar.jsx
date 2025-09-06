@@ -58,7 +58,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="bg-green-400/20 backdrop-blur-lg border-b border-green-400">
+    <nav className="">
       <div className="navbar max-w-6xl mx-auto">
         <div className="navbar-start  gap-4 w-fit">
           <div className="dropdown">
@@ -72,8 +72,9 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link to={"/"} className="font-bold text-xl">
-            Oahidul Islam <span className="text-green-500 text-2xl">.</span>
+          <Link to={"/"} className="font-bold text-3xl relative">
+            <p className="">Oahidul Islam</p>
+            <div className="bg-green-500 w-2 h-2 rounded-full absolute bottom-1.5 -right-3.5 animate-ping"></div>
           </Link>
         </div>
         <div className="navbar-end gap-10 flex-1">
